@@ -1,7 +1,11 @@
 package main
 
-import "accessLevel/library"
+import (
+	"belajar-golang/accessLevel/library"
+	"fmt"
+)
 
 func main() {
-	library.SayHello("arka")
+	fmt.Printf("Name  : %s\n", library.Student.Name)
+	fmt.Printf("Grade : %d\n", library.Student.Grade)
 }
